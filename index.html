@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pressed & Bloom — Florist &amp; Botanical Studio</title>
+<meta name="description" content="Pressed & Bloom is a small-batch flower studio specializing in seasonal, hand-tied arrangements for weddings, everyday moments, and quiet condolences.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='46' fill='%231F3A2E'/%3E%3Ccircle cx='50' cy='50' r='18' fill='none' stroke='%23F7F2E7' stroke-width='3'/%3E%3C/svg%3E">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <svg class="brand-mark" viewBox="0 0 60 60" aria-hidden="true">
+        <circle cx="30" cy="30" r="27" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M30 14 C34 20 34 26 30 30 C26 26 26 20 30 14Z" fill="currentColor"/>
+        <path d="M46 30 C40 34 34 34 30 30 C34 26 40 26 46 30Z" fill="currentColor"/>
+        <path d="M30 46 C26 40 26 34 30 30 C34 34 34 40 30 46Z" fill="currentColor"/>
+        <path d="M14 30 C20 26 26 26 30 30 C26 34 20 34 14 30Z" fill="currentColor"/>
+      </svg>
+      <span>Pressed <em>&amp;</em> Bloom</span>
+    </a>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="#collection">Collection</a>
+      <a href="#occasions">Occasions</a>
+      <a href="#process">How it works</a>
+      <a href="#story">Our story</a>
+      <a href="#visit">Visit</a>
+    </nav>
+    <a href="#order" class="btn btn-line nav-cta">Place an order</a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Est. 2016 — small-batch, cut to order</p>
+      <h1>Some things<br>are worth<br><span class="ital">pressing</span><br>into memory.</h1>
+      <p class="hero-lede">We cut, condition, and hand-tie every stem the morning it leaves our worktable — one studio, one florist per order, arrangements that are never quite the same twice.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-solid">View the collection</a>
+        <a href="#process" class="btn btn-text">See how it works →</a>
+      </div>
+    </div>
+    <div class="hero-plate">
+      <div class="specimen-card specimen-hero">
+        <span class="specimen-tag">No. 014</span>
+        <svg class="flower-art" viewBox="0 0 220 260" aria-hidden="true">
+          <use href="#flower-peony"></use>
+        </svg>
+        <p class="specimen-label">Paeonia lactiflora<br><span>Blush Peony</span></p>
+      </div>
+      <div class="tape tape-a" aria-hidden="true"></div>
+      <div class="tape tape-b" aria-hidden="true"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Hidden SVG symbol defs (reused botanical illustrations) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <g id="flower-peony">
+      <path d="M110 230 C110 190 108 150 106 110" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M106 150 C94 156 84 152 78 142" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <path d="M108 175 C120 180 130 176 136 166" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <path d="M110 108 C86 96 78 70 90 48 C100 62 100 78 110 92 C120 78 120 62 130 48 C142 70 134 96 110 108Z" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M110 108 C92 100 88 82 96 66 C104 76 106 88 110 98 C114 88 116 76 124 66 C132 82 128 100 110 108Z" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M110 96 C100 90 98 78 104 68 C108 76 110 84 110 92 C110 84 112 76 116 68 C122 78 120 90 110 96Z" fill="none" stroke="currentColor" stroke-width="1.1"/>
+      <circle cx="110" cy="80" r="4" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+    <g id="flower-ranunculus">
+      <path d="M100 230 C100 180 102 140 106 100" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M104 150 C90 158 78 156 70 146" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <circle cx="106" cy="70" r="34" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <circle cx="106" cy="70" r="26" fill="none" stroke="currentColor" stroke-width="1.2"/>
+      <circle cx="106" cy="70" r="18" fill="none" stroke="currentColor" stroke-width="1.1"/>
+      <circle cx="106" cy="70" r="10" fill="none" stroke="currentColor" stroke-width="1"/>
+      <circle cx="106" cy="70" r="3" fill="currentColor"/>
+    </g>
+    <g id="flower-dahlia">
+      <path d="M100 230 C100 180 100 140 104 100" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M100 160 C86 166 76 162 70 152" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <g fill="none" stroke="currentColor" stroke-width="1.2">
+        <path d="M104 96 L104 56"/>
+        <path d="M104 96 L124 64"/>
+        <path d="M104 96 L140 84"/>
+        <path d="M104 96 L140 108"/>
+        <path d="M104 96 L124 128"/>
+        <path d="M104 96 L104 136"/>
+        <path d="M104 96 L84 128"/>
+        <path d="M104 96 L68 108"/>
+        <path d="M104 96 L68 84"/>
+        <path d="M104 96 L84 64"/>
+      </g>
+      <circle cx="104" cy="96" r="9" fill="none" stroke="currentColor" stroke-width="1.2"/>
+    </g>
+    <g id="flower-eucalyptus">
+      <path d="M110 230 C108 170 106 110 104 40" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <ellipse cx="98" cy="70" rx="12" ry="7" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(-30 98 70)"/>
+      <ellipse cx="114" cy="95" rx="12" ry="7" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(25 114 95)"/>
+      <ellipse cx="96" cy="120" rx="12" ry="7" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(-25 96 120)"/>
+      <ellipse cx="112" cy="145" rx="12" ry="7" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(28 112 145)"/>
+      <ellipse cx="97" cy="170" rx="12" ry="7" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(-22 97 170)"/>
+      <ellipse cx="112" cy="195" rx="11" ry="6" fill="none" stroke="currentColor" stroke-width="1.2" transform="rotate(24 112 195)"/>
+    </g>
+    <g id="flower-rose">
+      <path d="M106 230 C106 190 108 150 108 112" fill="none" stroke="currentColor" stroke-width="1.6"/>
+      <path d="M108 160 C96 166 86 162 80 152" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M108 112 C92 108 84 94 90 78 C98 84 100 94 104 102 C104 90 100 78 104 66 C114 74 116 88 112 100 C120 92 128 88 132 78 C136 92 130 104 112 108 C118 100 122 92 120 84" fill="none" stroke="currentColor" stroke-width="1.4"/>
+      <path d="M104 102 C98 96 98 88 102 82" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+    <g id="sprig-mark">
+      <path d="M10 2 L10 46" fill="none" stroke="currentColor" stroke-width="1.3"/>
+      <path d="M10 12 C4 14 1 19 2 24" fill="none" stroke="currentColor" stroke-width="1"/>
+      <path d="M10 22 C16 24 19 29 18 34" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+  </defs>
+</svg>
+
+<!-- ============ MARQUEE STRIP ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Cut fresh each morning</span><span>·</span>
+    <span>Same-day delivery, city-wide</span><span>·</span>
+    <span>Grown by twelve local farms</span><span>·</span>
+    <span>No two arrangements alike</span><span>·</span>
+    <span>Cut fresh each morning</span><span>·</span>
+    <span>Same-day delivery, city-wide</span><span>·</span>
+    <span>Grown by twelve local farms</span><span>·</span>
+    <span>No two arrangements alike</span><span>·</span>
+  </div>
+</div>
+
+<!-- ============ COLLECTION ============ -->
+<section class="collection" id="collection">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">The Catalog — Autumn Series</p>
+      <h2>Each arrangement, <span class="ital">accessioned</span>.</h2>
+      <p class="section-lede">Like specimens in a field journal, every bouquet we release is logged, numbered, and named for what's actually in season. Prices adjust slightly week to week as the flowers do.</p>
+    </div>
+
+    <div class="catalog-grid">
+
+      <article class="specimen-card">
+        <span class="specimen-tag">No. 014</span>
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-peony"></use></svg>
+        <p class="specimen-label">Paeonia lactiflora<br><span>Blush Peony Study</span></p>
+        <p class="specimen-meta">7 stems, garden peony &amp; ranunculus, waxed twine · <strong>$78</strong></p>
+        <a href="#order" class="btn btn-line btn-small">Order No. 014</a>
+      </article>
+
+      <article class="specimen-card">
+        <span class="specimen-tag">No. 022</span>
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-ranunculus"></use></svg>
+        <p class="specimen-label">Ranunculus asiaticus<br><span>Persian Buttercup</span></p>
+        <p class="specimen-meta">9 stems, layered petal ranunculus, kraft wrap · <strong>$54</strong></p>
+        <a href="#order" class="btn btn-line btn-small">Order No. 022</a>
+      </article>
+
+      <article class="specimen-card">
+        <span class="specimen-tag">No. 031</span>
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-dahlia"></use></svg>
+        <p class="specimen-label">Dahlia pinnata<br><span>Café-au-Lait Dahlia</span></p>
+        <p class="specimen-meta">5 dinner-plate dahlias, single variety · <strong>$92</strong></p>
+        <a href="#order" class="btn btn-line btn-small">Order No. 031</a>
+      </article>
+
+      <article class="specimen-card">
+        <span class="specimen-tag">No. 007</span>
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-rose"></use></svg>
+        <p class="specimen-label">Rosa 'Café'<br><span>Antique Garden Rose</span></p>
+        <p class="specimen-meta">8 stems, tea rose &amp; spirea, linen ribbon · <strong>$88</strong></p>
+        <a href="#order" class="btn btn-line btn-small">Order No. 007</a>
+      </article>
+
+      <article class="specimen-card">
+        <span class="specimen-tag">No. 045</span>
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-eucalyptus"></use></svg>
+        <p class="specimen-label">Eucalyptus cinerea<br><span>Silver Dollar Sprig</span></p>
+        <p class="specimen-meta">A quiet greens-only bundle for everyday tables · <strong>$36</strong></p>
+        <a href="#order" class="btn btn-line btn-small">Order No. 045</a>
+      </article>
+
+      <article class="specimen-card specimen-cta">
+        <p class="eyebrow">Not sure where to start?</p>
+        <p class="specimen-cta-copy">Tell us the occasion, the room, or just the person — we'll build something from whatever's best at the market this week.</p>
+        <a href="#order" class="btn btn-solid btn-small">Ask for a custom build</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ OCCASIONS ============ -->
+<section class="occasions" id="occasions">
+  <div class="wrap">
+    <div class="section-head section-head-light">
+      <p class="eyebrow">What we're arranging for</p>
+      <h2>Flowers for the whole shape of a life.</h2>
+    </div>
+    <div class="occasion-grid">
+      <div class="occasion-item">
+        <svg class="occasion-mark" viewBox="0 0 60 60" aria-hidden="true"><use href="#flower-rose" transform="translate(0,-90) scale(0.26)"></use></svg>
+        <h3>Weddings</h3>
+        <p>Ceremony, table, and bridal work built around one flower story, from first sketch to strike.</p>
+      </div>
+      <div class="occasion-item">
+        <svg class="occasion-mark" viewBox="0 0 60 60" aria-hidden="true"><use href="#flower-eucalyptus" transform="translate(-8,-95) scale(0.26)"></use></svg>
+        <h3>Sympathy</h3>
+        <p>Quiet, unhurried arrangements delivered directly to a home or service, no card required.</p>
+      </div>
+      <div class="occasion-item">
+        <svg class="occasion-mark" viewBox="0 0 60 60" aria-hidden="true"><use href="#flower-ranunculus" transform="translate(-14,-90) scale(0.26)"></use></svg>
+        <h3>Everyday</h3>
+        <p>A standing weekly bundle for the kitchen table, the front desk, or the person who visits every Friday.</p>
+      </div>
+      <div class="occasion-item">
+        <svg class="occasion-mark" viewBox="0 0 60 60" aria-hidden="true"><use href="#flower-dahlia" transform="translate(-16,-90) scale(0.26)"></use></svg>
+        <h3>Events &amp; openings</h3>
+        <p>Installations, welcome tables, and gifting for launches, galas, and shop openings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESS ============ -->
+<section class="process" id="process">
+  <div class="wrap">
+    <div class="section-head">
+      <p class="eyebrow">How an order moves through the studio</p>
+      <h2>From market crate to your door, same day.</h2>
+    </div>
+    <ol class="process-list">
+      <li>
+        <span class="process-num">01</span>
+        <h3>Choose or describe</h3>
+        <p>Pick a numbered arrangement from the catalog, or tell us the occasion and budget and let us build.</p>
+      </li>
+      <li>
+        <span class="process-num">02</span>
+        <h3>We visit the market at dawn</h3>
+        <p>Stems are selected by hand between 5 and 7am from growers we've worked with for years.</p>
+      </li>
+      <li>
+        <span class="process-num">03</span>
+        <h3>Cut, conditioned, tied</h3>
+        <p>Every stem is re-cut and conditioned before it's hand-tied — never pre-made, never sitting in a cooler.</p>
+      </li>
+      <li>
+        <span class="process-num">04</span>
+        <h3>Delivered fresh, that day</h3>
+        <p>Same-day delivery across the city, or ready for pickup at the studio counter by 1pm.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ STORY ============ -->
+<section class="story" id="story">
+  <div class="wrap story-grid">
+    <div class="story-plate">
+      <div class="specimen-card specimen-story">
+        <svg class="flower-art" viewBox="0 0 220 260"><use href="#flower-rose"></use></svg>
+        <p class="specimen-label">Studio, 2016 —<br><span>where it started</span></p>
+      </div>
+    </div>
+    <div class="story-copy">
+      <p class="eyebrow">Our story</p>
+      <h2>A one-room studio that never got much bigger, on purpose.</h2>
+      <p>Pressed &amp; Bloom started as a folding table at a Saturday market and a promise: nothing pre-made, nothing shipped in from a warehouse. Ten years later it's still one small studio, still one florist per order, still a folding table for the overflow on our busiest weeks.</p>
+      <p>We work almost entirely with growers within a few hours of the city, which means our catalog changes with what's actually blooming — not what's convenient to import. If a flower isn't at its best, it isn't in the shop that week.</p>
+      <a href="#visit" class="btn btn-text">Come see the studio →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="notes">
+  <div class="wrap">
+    <div class="section-head section-head-light">
+      <p class="eyebrow">Notes from the garden</p>
+      <h2>What people leave in the guestbook</h2>
+    </div>
+    <div class="notes-grid">
+      <blockquote class="note note-a">
+        <p>Ordered the No. 022 for a Tuesday with no occasion at all. Best decision I made that week.</p>
+        <cite>— Marisol T.</cite>
+      </blockquote>
+      <blockquote class="note note-b">
+        <p>They arranged sympathy flowers for my grandmother's service with more care than I could've asked for.</p>
+        <cite>— Devon R.</cite>
+      </blockquote>
+      <blockquote class="note note-c">
+        <p>Our wedding flowers were the one thing zero guests could stop talking about. Worth every stem.</p>
+        <cite>— Priya &amp; Sam</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ VISIT / ORDER / FOOTER ============ -->
+<section class="visit" id="visit">
+  <div class="wrap visit-grid">
+    <div class="visit-info">
+      <p class="eyebrow">Visit the studio</p>
+      <h2>Come smell the workroom.</h2>
+      <dl class="info-list">
+        <div><dt>Address</dt><dd>214 Marlow Lane, Studio&nbsp;3<br>Riverside District</dd></div>
+        <div><dt>Studio hours</dt><dd>Tue–Sat, 9am–4pm<br>Closed Sun–Mon</dd></div>
+        <div><dt>Order cutoff</dt><dd>Same-day delivery for orders in by 11am</dd></div>
+        <div><dt>Reach us</dt><dd>hello@pressedandbloom.example<br>(555) 019-2044</dd></div>
+      </dl>
+      <div class="social-row">
+        <a href="#">Instagram</a><a href="#">Pinterest</a><a href="#">Newsletter</a>
+      </div>
+    </div>
+
+    <div class="order-card" id="order">
+      <p class="eyebrow">Place an order</p>
+      <h3>Tell us what the day calls for.</h3>
+      <form class="order-form" onsubmit="return false;">
+        <label>Name
+          <input type="text" name="name" placeholder="Your name" required>
+        </label>
+        <label>Occasion
+          <select name="occasion">
+            <option>Just because</option>
+            <option>Wedding</option>
+            <option>Sympathy</option>
+            <option>Everyday standing order</option>
+            <option>Event or opening</option>
+          </select>
+        </label>
+        <label>Preferred arrangement
+          <input type="text" name="arrangement" placeholder="e.g. No. 014, or 'surprise me'">
+        </label>
+        <label>Delivery date
+          <input type="date" name="date">
+        </label>
+        <label>Anything else
+          <textarea name="notes" rows="3" placeholder="Colors to avoid, budget, delivery notes…"></textarea>
+        </label>
+        <button type="submit" class="btn btn-solid btn-wide">Send order request</button>
+        <p class="form-note">This form is a preview — connect it to your email or order system before publishing live.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <a href="#top" class="brand brand-footer">
+      <svg class="brand-mark" viewBox="0 0 60 60" aria-hidden="true">
+        <circle cx="30" cy="30" r="27" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <path d="M30 14 C34 20 34 26 30 30 C26 26 26 20 30 14Z" fill="currentColor"/>
+        <path d="M46 30 C40 34 34 34 30 30 C34 26 40 26 46 30Z" fill="currentColor"/>
+        <path d="M30 46 C26 40 26 34 30 30 C34 34 34 40 30 46Z" fill="currentColor"/>
+        <path d="M14 30 C20 26 26 26 30 30 C26 34 20 34 14 30Z" fill="currentColor"/>
+      </svg>
+      <span>Pressed <em>&amp;</em> Bloom</span>
+    </a>
+    <p class="footer-tag">Cut fresh · Riverside District · Est. 2016</p>
+    <p class="footer-copy">© <span id="year"></span> Pressed &amp; Bloom Flower Studio. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
